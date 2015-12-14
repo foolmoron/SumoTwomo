@@ -2,3 +2,6 @@ Intermediate/
 Saved/Cooked/
 Binaries/
 *.sdf
+Saved/StagedBuilds/
+*.dmp
+Saved/Backup/

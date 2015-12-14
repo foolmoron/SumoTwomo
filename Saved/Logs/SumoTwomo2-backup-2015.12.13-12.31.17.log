@@ -1,0 +1,1610 @@
+﻿[2015.12.13-04.51.42:077][  0]Log file open, 12/12/15 23:51:42
+[2015.12.13-04.51.42:077][  0]LogInit:Display: Running engine for game: SumoTwomo2
+[2015.12.13-04.51.42:077][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.13-04.51.42:077][  0]LogInit:Display: RandInit(-124026269) SRandInit(-124026266).
+[2015.12.13-04.51.42:077][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.12.13-04.51.42:077][  0]LogStats: Stats thread started at 0.113130
+[2015.12.13-04.51.42:077][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.13-04.51.42:077][  0]LogInit: API Version: 2758231
+[2015.12.13-04.51.42:077][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.13-04.51.42:077][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.13-04.51.42:077][  0]LogInit: Build Configuration: Development
+[2015.12.13-04.51.42:077][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.13-04.51.42:077][  0]LogInit: Command line: 
+[2015.12.13-04.51.42:077][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.13-04.51.42:077][  0]LogInit: Rocket: 1
+[2015.12.13-04.51.42:092][  0]LogInit: Using libcurl 7.41.0
+[2015.12.13-04.51.42:092][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.13-04.51.42:092][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.13-04.51.42:092][  0]LogInit:  - other features:
+[2015.12.13-04.51.42:092][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.13-04.51.42:092][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.13-04.51.42:092][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.13-04.51.42:092][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.13-04.51.42:092][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.13-04.51.42:092][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.13-04.51.42:092][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.13-04.51.42:092][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.13-04.51.42:092][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.13-04.51.42:092][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.13-04.51.42:108][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.13-04.51.42:122][  0]LogInit: Object subsystem initialized
+[2015.12.13-04.51.42:124][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.13-04.51.42:124][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.13-04.51.42:142][  0]LogInit: Computer: FOOLMORONXPS12
+[2015.12.13-04.51.42:142][  0]LogInit: User: foolmoron
+[2015.12.13-04.51.42:142][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.12.13-04.51.42:142][  0]LogInit: High frequency timer resolution =2.533314 MHz
+[2015.12.13-04.51.42:142][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.12.13-04.51.42:142][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.13-04.51.42:142][  0]LogMemory: Process Physical Memory: 58.16 MB used, 58.16 MB peak
+[2015.12.13-04.51.42:142][  0]LogMemory: Process Virtual Memory: 55.75 MB used, 55.75 MB peak
+[2015.12.13-04.51.42:142][  0]LogMemory: Physical Memory: 5249.84 MB used, 8071.27 MB total
+[2015.12.13-04.51.42:142][  0]LogMemory: Virtual Memory: 378.22 MB used, 134217728.00 MB total
+[2015.12.13-04.51.42:213][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.13-04.51.43:038][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.12.13-04.51.43:038][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.12.13-04.51.43:042][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.13-04.51.43:042][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4035MB of shared system memory, 0 output[s]
+[2015.12.13-04.51.43:043][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.13-04.51.43:051][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.13-04.51.43:051][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.12.13-04.51.43:057][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.13-04.51.43:067][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Intermediate/Shaders/WorkingDirectory/9508/).
+[2015.12.13-04.51.43:068][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/FOOLMO~1/AppData/Local/Temp/UnrealShaderWorkingDir/7706CB41471D2966741AC887448C380C/'.
+[2015.12.13-04.51.43:068][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.13-04.51.45:650][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.13-04.51.45:676][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.13-04.51.45:691][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.13-04.51.45:707][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.13-04.51.45:720][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.13-04.51.45:729][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.13-04.51.45:740][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.13-04.51.45:751][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.13-04.51.45:760][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.13-04.51.45:771][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.13-04.51.45:780][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.13-04.51.45:800][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.13-04.51.45:800][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.13-04.51.45:803][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.13-04.51.45:831][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.13-04.51.45:839][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.13-04.51.45:851][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.13-04.51.45:863][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.13-04.51.45:863][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.13-04.51.46:013][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.13-04.51.46:096][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/foolmoron/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.13-04.51.46:096][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/foolmoron/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.13-04.51.46:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.13-04.51.46:096][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.13-04.51.46:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.13-04.51.46:096][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.13-04.51.46:192][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.13-04.51.46:205][  0]LogDerivedDataCache: Using Local data cache path C:/Users/foolmoron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.13-04.51.46:527][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.13-04.51.46:532][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.13-04.51.46:748][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.13-04.51.46:749][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.13-04.51.47:149][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.13-04.51.48:287][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.13-04.51.48:399][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
+[2015.12.13-04.51.48:710][  0]SourceControl: Info Source control is disabled
+[2015.12.13-04.51.48:739][  0]SourceControl: Info Source control is disabled
+[2015.12.13-04.51.48:759][  0]SourceControl: Info Source control is disabled
+[2015.12.13-04.51.48:787][  0]SourceControl: Info Source control is disabled
+[2015.12.13-04.51.49:200][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.13-04.51.49:200][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.13-04.51.49:284][  0]LogEngine: Initializing Engine...
+[2015.12.13-04.51.49:292][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.13-04.51.49:293][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.13-04.51.49:556][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.13-04.51.49:569][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-04.51.49:603][  0]LogInit: FAudioDevice initialized.
+[2015.12.13-04.51.49:674][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/foolmoron/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.13-04.51.49:686][  0]LogInit: Texture streaming: Enabled
+[2015.12.13-04.51.49:699][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.13-04.51.49:699][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.13-04.51.49:699][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2bb941544bca127ac401eab0f6687475|cf6d12ea035849bfb4de568fdbb1d56c|2f6fb744-53ef-4c3f-bf6e-e74cb26cd741
+[2015.12.13-04.51.49:699][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.13-04.51.49:775][  0]LogInit: Transaction tracking system initialized
+[2015.12.13-04.51.49:875][  0]BlueprintLog: New page: Editor Load
+[2015.12.13-04.51.50:110][  0]LocalizationService: Info Localization service is disabled
+[2015.12.13-04.51.50:571][  0]LogConsoleResponse:Display: 
+[2015.12.13-04.51.50:808][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.13-04.51.51:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/foolmoron/Documents/Projects/SumoTwomo2/Content/' took 0.02s
+[2015.12.13-04.51.51:022][  0]SourceControl: Info Source control is disabled
+[2015.12.13-04.51.51:022][  0]Cmd: MAP LOAD FILE="../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-04.51.51:023][  0]LightingResults: New page: Lighting Build
+[2015.12.13-04.51.51:031][  0]MapCheck: New page: Map Check
+[2015.12.13-04.51.51:031][  0]LightingResults: New page: Lighting Build
+[2015.12.13-04.51.51:071][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA3AB37B00
+[2015.12.13-04.51.52:347][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.13-04.51.52:374][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-04.51.52:375][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-04.51.52:503][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.01ms to complete.
+[2015.12.13-04.51.52:503][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 1.481
+[2015.12.13-04.51.52:704][  0]LogCollectionManager: Loaded 0 collections in 0.005752 seconds
+[2015.12.13-04.51.52:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Collections/' took 0.01s
+[2015.12.13-04.51.52:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Developers/foolmoron/Collections/' took 0.01s
+[2015.12.13-04.51.52:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Collections/' took 0.01s
+[2015.12.13-04.51.52:754][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.12.13-04.51.52:776][  0]LogContentBrowser: Native class hierarchy populated in 0.0215 seconds. Added 1893 classes and 338 folders.
+[2015.12.13-04.51.52:798][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.12.13-04.51.52:981][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.12.13-04.51.52:992][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.12.13-04.51.53:055][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.13-04.51.53:068][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.13-04.51.53:096][  0]LogLoad: Full Startup: 11.78 seconds (BP compile: 0.29 seconds)
+[2015.12.13-04.51.53:448][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.13-04.51.53:562][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.12.13-04.51.53:858][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2015.12.13-04.51.55:962][  5]LogAssetRegistry: Asset discovery search completed in 7.5742 seconds
+[2015.12.13-04.51.55:962][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.12.13-04.51.55:962][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2015.12.13-04.52.35:579][331]LogAIModule: Creating AISystem for world Square
+[2015.12.13-04.52.39:321][545]Cmd: MAP LOAD FILE="../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/RollingBP/Maps/Square.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.13-04.52.39:321][545]LightingResults: New page: Lighting Build
+[2015.12.13-04.52.39:351][545]LoadErrors: New page: Loading map: Square.umap
+[2015.12.13-04.52.39:353][545]MapCheck: New page: Map Check
+[2015.12.13-04.52.39:353][545]LightingResults: New page: Lighting Build
+[2015.12.13-04.52.39:384][545]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA27A3B740
+[2015.12.13-04.52.39:393][545]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.13-04.52.39:438][545]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.13-04.52.39:508][545]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.983ms to complete.
+[2015.12.13-04.52.39:509][545]LogFileHelpers: Loading map 'Square' took 0.190
+[2015.12.13-04.52.42:106][618]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Skybox)
+[2015.12.13-04.55.04:833][291]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.13-04.55.05:527][291]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2015.12.13-05.02.39:700][170]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/Square' took 0.059
+[2015.12.13-05.09.27:730][737]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.12.13-05.11.24:006][566]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:033][566]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:053][566]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:066][567]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:096][568]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:139][569]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:202][570]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:265][571]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:332][572]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:394][573]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:457][574]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:521][575]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:583][576]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:708][577]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:715][577]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:738][577]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:746][578]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:772][579]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:838][580]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:899][581]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.24:962][582]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:029][583]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:094][584]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:155][585]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:218][586]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:281][587]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:347][588]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:411][589]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:474][590]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:540][591]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:604][592]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:667][593]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:733][594]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:825][595]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:918][596]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.25:988][597]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:059][598]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:084][599]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:129][600]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:197][601]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:264][602]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:328][603]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:393][604]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:465][605]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:547][606]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:584][607]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:652][608]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:716][609]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:783][610]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:851][611]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.26:922][612]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:051][613]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:079][614]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:116][615]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:183][616]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:248][617]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:315][618]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:442][619]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:468][620]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:508][621]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:573][622]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:634][623]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:702][624]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:765][625]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:830][626]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:891][627]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.27:956][628]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:017][629]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:084][630]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:151][631]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:216][632]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:348][633]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:377][634]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:414][635]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:482][636]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:546][637]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:611][638]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:674][639]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:740][640]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:803][641]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:864][642]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:927][643]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.28:992][644]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:052][645]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:114][646]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:179][647]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:240][648]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:303][649]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:365][650]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:428][651]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:489][652]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:553][653]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:618][654]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:747][655]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:778][656]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:814][657]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:880][658]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.29:945][659]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:015][660]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:081][661]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:146][662]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:208][663]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:273][664]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:334][665]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:399][666]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:465][667]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:705][670]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:707][670]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:716][670]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:740][670]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:754][671]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:783][672]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:811][673]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:867][674]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.30:932][675]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:132][677]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:134][677]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:142][677]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:165][677]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:175][678]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:206][679]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:233][680]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:288][681]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:352][682]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:419][683]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:481][684]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:548][685]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:768][688]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:770][688]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:779][688]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:801][688]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:810][689]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:836][690]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:862][691]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:920][692]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.31:989][693]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:053][694]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:117][695]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:181][696]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:245][697]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:307][698]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:370][699]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:431][700]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:497][701]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:568][702]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:630][703]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:691][704]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:752][705]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:816][706]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:879][707]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.32:941][708]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:011][709]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:068][710]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:132][711]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:193][712]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:256][713]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:321][714]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:384][715]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:446][716]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:513][717]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:574][718]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:635][719]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:700][720]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:761][721]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:980][724]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:983][724]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.33:993][724]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:019][724]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:028][725]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:055][726]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:085][727]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:141][728]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:205][729]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:268][730]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:333][731]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:398][732]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:463][733]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:531][734]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:592][735]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:656][736]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:717][737]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:785][738]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:852][739]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:919][740]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.34:992][741]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:073][742]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:135][743]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:203][744]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:267][745]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:333][746]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:398][747]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:463][748]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:528][749]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:590][750]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:651][751]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:716][752]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:779][753]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:845][754]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:906][755]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.35:969][756]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:033][757]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:096][758]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:164][759]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:229][760]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:291][761]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:355][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:420][763]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:483][764]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:548][765]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:613][766]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:676][767]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:739][768]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:801][769]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:864][770]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.36:933][771]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:001][772]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:068][773]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:134][774]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:198][775]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:265][776]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:325][777]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:387][778]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:450][779]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:513][780]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:574][781]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:643][782]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:708][783]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:772][784]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:838][785]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:903][786]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.37:967][787]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:032][788]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:097][789]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:162][790]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:230][791]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:297][792]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:362][793]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:428][794]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:492][795]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:558][796]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:618][797]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:683][798]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:752][799]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:817][800]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:880][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.38:944][802]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:007][803]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:068][804]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:131][805]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:197][806]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:259][807]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:322][808]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:383][809]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:446][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:512][811]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:575][812]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:633][813]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:700][814]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:769][815]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:833][816]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:900][817]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.39:965][818]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:031][819]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:097][820]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:309][823]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:341][824]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:366][825]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:401][826]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:467][827]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:531][828]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:596][829]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:662][830]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:723][831]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:786][832]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:848][833]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:913][834]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.40:974][835]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:035][836]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:099][837]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:165][838]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:229][839]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:291][840]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:358][841]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:419][842]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:482][843]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:545][844]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:609][845]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:673][846]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:736][847]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:797][848]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:862][849]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:921][850]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.41:983][851]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:110][852]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:114][852]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:120][852]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:144][852]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:154][853]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:181][854]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:236][855]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:300][856]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:366][857]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:430][858]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:494][859]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:558][860]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:622][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:688][862]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:753][863]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:818][864]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.42:881][865]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:014][865]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:041][866]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:070][867]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:096][868]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:148][869]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:213][870]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:275][871]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:342][872]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:404][873]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:468][874]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:535][875]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:602][876]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:729][878]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.43:792][879]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.48:985][959]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.48:988][959]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.49:021][959]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.49:945][975]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.49:948][975]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.49:982][975]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.50:577][986]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.50:580][986]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.50:612][986]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.59:743][113]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.59:745][113]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.11.59:782][113]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.01:048][134]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.01:052][134]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.01:094][134]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.07:073][264]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.07:076][264]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.07:122][264]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.08:095][280]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.08:098][280]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.08:130][280]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.53:623][961]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.53:626][961]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.53:665][961]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.54:195][970]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.54:199][970]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.12.54:227][970]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:351][351]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:395][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:451][353]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:479][354]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:535][355]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:601][356]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:664][357]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:728][358]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:792][359]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:855][360]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:922][361]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.19:984][362]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.20:049][363]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.20:112][364]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.20:180][365]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.20:243][366]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.20:313][367]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.20:382][368]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.20:446][369]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.28:672][504]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.13.28:725][504]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.28:868][504]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.28:876][504]BlueprintEditorCompileResults: Info [1307.56] Compile of PhysicsBallBP successful! [in 203 ms]
+[2015.12.13-05.13.28:915][504]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.13.49:252][964]LogEditorTransaction: Undo Delete current selection
+[2015.12.13-05.13.49:271][964]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.14.29:890][922]LogSavePackage: Save=96.817055ms
+[2015.12.13-05.14.29:890][922]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Square_Auto149F9ACC047005427236EE3A378A7F0CB.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Maps/Square_Auto1.umap'
+[2015.12.13-05.14.29:893][922]LogSavePackage: Total save time: 114.665218ms
+[2015.12.13-05.14.29:893][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Maps/Square_Auto1.umap
+[2015.12.13-05.14.29:895][922]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/Square' took 0.198
+[2015.12.13-05.14.29:895][922]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.198
+[2015.12.13-05.14.29:903][922]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollingBP/Blueprints/PhysicsBallBP] ([1] browsable assets)...
+[2015.12.13-05.14.29:937][922]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP]
+[2015.12.13-05.14.29:937][922]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/PhysicsBallBP]
+[2015.12.13-05.14.30:051][922]LogSavePackage: Save=102.089592ms
+[2015.12.13-05.14.30:051][922]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/PhysicsBallBP_Auto17D4897614089207A2250879F62ECA678.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto1.uasset'
+[2015.12.13-05.14.30:053][922]LogSavePackage: Total save time: 114.755217ms
+[2015.12.13-05.14.30:053][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto1.uasset
+[2015.12.13-05.14.30:053][922]LogFileHelpers: Auto-saving content packages took 0.157
+[2015.12.13-05.16.37:520][939]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.24.30:638][292]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/Square' took 0.052
+[2015.12.13-05.24.30:644][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollingBP/Blueprints/PhysicsBallBP] ([1] browsable assets)...
+[2015.12.13-05.24.30:665][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP]
+[2015.12.13-05.24.30:665][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/PhysicsBallBP]
+[2015.12.13-05.24.30:750][292]LogSavePackage: Save=77.342171ms
+[2015.12.13-05.24.30:750][292]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/PhysicsBallBP_Auto29B8807B349748CD8A881A2B2CD8B850A.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto2.uasset'
+[2015.12.13-05.24.30:756][292]LogSavePackage: Total save time: 89.667130ms
+[2015.12.13-05.24.30:756][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto2.uasset
+[2015.12.13-05.24.30:756][292]LogFileHelpers: Auto-saving content packages took 0.117
+[2015.12.13-05.26.59:323][119]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2387.EdGraphPin_23144''
+[2015.12.13-05.26.59:324][119]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2388.EdGraphPin_23149''
+[2015.12.13-05.26.59:325][119]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_139.EdGraphPin_22646''
+[2015.12.13-05.26.59:326][119]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2388.EdGraphPin_23147''
+[2015.12.13-05.27.08:041][322]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.27.08:097][322]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.27.08:219][322]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.27.08:226][322]BlueprintEditorCompileResults: Info [2126.91] Compile of PhysicsBallBP successful! [in 184 ms]
+[2015.12.13-05.27.13:700][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.27.13:700][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.27.13:705][442]PIE: New page: PIE session: Square (Dec 12, 2015, 7:27:13 PM)
+[2015.12.13-05.27.13:705][442]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.27.13:712][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006689s)
+[2015.12.13-05.27.13:713][442]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.27.13:714][442]LogPlayLevel: PIE: World Init took: (0.002183s)
+[2015.12.13-05.27.13:714][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.009328s)
+[2015.12.13-05.27.13:800][442]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.27.13:826][442]LogInit: FAudioDevice initialized.
+[2015.12.13-05.27.13:888][442]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.27.13:893][442]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.27.13
+[2015.12.13-05.27.13:893][442]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.27.13:893][442]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.27.13:893][442]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.27.13:894][442]LogWorld: Bringing up level for play took: 0.004320
+[2015.12.13-05.27.13:897][442]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.27.13:898][442]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square -0.616
+[2015.12.13-05.27.13:898][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.27.35:106][388]Set new viewmode: Wireframe
+[2015.12.13-05.27.35:807][426]Set new viewmode: Wireframe
+[2015.12.13-05.27.36:573][468]Set new viewmode: Unlit
+[2015.12.13-05.27.36:903][486]Set new viewmode: Lit
+[2015.12.13-05.27.37:396][508]Set new viewmode: Unlit
+[2015.12.13-05.27.37:787][529]Set new viewmode: Lit
+[2015.12.13-05.27.38:141][545]Set new viewmode: Lit
+[2015.12.13-05.27.38:526][562]Set new viewmode: Unlit
+[2015.12.13-05.27.40:182][653]Set new viewmode: Lit
+[2015.12.13-05.27.40:497][667]Error: view mode not recognized: detaillighting
+[2015.12.13-05.27.40:887][684]Error: view mode not recognized: detaillighting
+[2015.12.13-05.27.41:112][694]Set new viewmode: ShaderComplexity
+[2015.12.13-05.27.41:928][740]Set new viewmode: ShaderComplexity
+[2015.12.13-05.27.42:297][761]Error: view mode not recognized: detaillighting
+[2015.12.13-05.27.42:764][787]Error: view mode not recognized: detaillighting
+[2015.12.13-05.27.42:963][798]Set new viewmode: Lit
+[2015.12.13-05.27.43:207][809]Set new viewmode: Lit
+[2015.12.13-05.27.43:788][835]Error: view mode not recognized: detaillighting
+[2015.12.13-05.27.44:173][852]Set new viewmode: Lit
+[2015.12.13-05.27.44:553][869]Set new viewmode: ShaderComplexity
+[2015.12.13-05.27.44:881][887]Error: view mode not recognized: detaillighting
+[2015.12.13-05.27.45:382][915]Set new viewmode: Lit
+[2015.12.13-05.27.45:831][935]Error: view mode not recognized: detaillighting
+[2015.12.13-05.27.46:238][953]Set new viewmode: Lit
+[2015.12.13-05.27.46:707][974]Set new viewmode: Unlit
+[2015.12.13-05.27.47:104][995]Set new viewmode: Lit
+[2015.12.13-05.27.49:771][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.27.49:864][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.27.49:926][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA194BDA80
+[2015.12.13-05.29.22:903][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2387.EdGraphPin_23180''
+[2015.12.13-05.29.22:903][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_41.EdGraphPin_23292''
+[2015.12.13-05.29.22:904][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_139.EdGraphPin_23174''
+[2015.12.13-05.29.22:905][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2388.EdGraphPin_23187''
+[2015.12.13-05.29.22:906][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_41.EdGraphPin_23291''
+[2015.12.13-05.29.22:908][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2429.EdGraphPin_23297''
+[2015.12.13-05.29.22:909][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2429.EdGraphPin_23296''
+[2015.12.13-05.29.36:120][549]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.29.36:180][549]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.29.36:334][549]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.29.36:345][549]BlueprintEditorCompileResults: Info [2275.03] Compile of PhysicsBallBP successful! [in 224 ms]
+[2015.12.13-05.29.39:639][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.29.39:639][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.29.39:639][602]PIE: New page: PIE session: Square (Dec 12, 2015, 7:29:39 PM)
+[2015.12.13-05.29.39:639][602]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.29.39:645][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005755s)
+[2015.12.13-05.29.39:646][602]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.29.39:647][602]LogPlayLevel: PIE: World Init took: (0.001744s)
+[2015.12.13-05.29.39:647][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.007913s)
+[2015.12.13-05.29.39:744][602]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.29.39:776][602]LogInit: FAudioDevice initialized.
+[2015.12.13-05.29.39:819][602]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.29.39:822][602]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.29.39
+[2015.12.13-05.29.39:822][602]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.29.39:822][602]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.29.39:822][602]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.29.39:823][602]LogWorld: Bringing up level for play took: 0.003628
+[2015.12.13-05.29.39:826][602]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.29.39:827][602]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square -0.687
+[2015.12.13-05.29.39:827][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.29.52:143][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.29.52:217][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.29.52:275][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA1CDFCF40
+[2015.12.13-05.29.53:081][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.13-05.29.54:050][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.29.54:050][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.29.54:050][991]PIE: New page: PIE session: Square (Dec 12, 2015, 7:29:54 PM)
+[2015.12.13-05.29.54:050][991]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.29.54:056][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005789s)
+[2015.12.13-05.29.54:057][991]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.29.54:057][991]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2015.12.13-05.29.54:058][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.007300s)
+[2015.12.13-05.29.54:129][991]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.29.54:147][991]LogInit: FAudioDevice initialized.
+[2015.12.13-05.29.54:191][991]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.29.54:194][991]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.29.54
+[2015.12.13-05.29.54:194][991]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.29.54:194][991]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.29.54:194][991]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.29.54:195][991]LogWorld: Bringing up level for play took: 0.003341
+[2015.12.13-05.29.54:197][991]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.29.54:197][991]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square -0.317
+[2015.12.13-05.29.54:197][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.30.08:303][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.30.08:371][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.30.08:468][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA216587C0
+[2015.12.13-05.30.45:220][518]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.30.45:270][518]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.45:390][518]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.45:395][518]BlueprintEditorCompileResults: Info [2344.08] Compile of PhysicsBallBP successful! [in 175 ms]
+[2015.12.13-05.30.50:200][614]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.51:678][638]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.51:744][639]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.51:794][640]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.51:834][641]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.51:901][642]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.51:964][643]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.52:033][644]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.58:146][735]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.58:152][735]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.30.58:184][735]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.31.04:146][822]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.31.04:151][822]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.31.16:064][ 78]LogEditorTransaction: Undo Move Node
+[2015.12.13-05.31.16:084][ 78]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.31.18:514][147]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_295.EdGraphPin_23470''
+[2015.12.13-05.31.46:085][825]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_350.EdGraphPin_23470''
+[2015.12.13-05.31.46:086][825]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_295.EdGraphPin_23613''
+[2015.12.13-05.32.14:586][499]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.32.14:653][499]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.32.14:788][499]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.32.14:793][499]BlueprintEditorCompileResults: Info [2433.48] Compile of PhysicsBallBP successful! [in 207 ms]
+[2015.12.13-05.32.39:019][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.32.39:020][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.32.39:020][982]PIE: New page: PIE session: Square (Dec 12, 2015, 7:32:39 PM)
+[2015.12.13-05.32.39:020][982]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.32.39:026][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005901s)
+[2015.12.13-05.32.39:027][982]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.32.39:028][982]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2015.12.13-05.32.39:028][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.007936s)
+[2015.12.13-05.32.39:129][982]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.32.39:152][982]LogInit: FAudioDevice initialized.
+[2015.12.13-05.32.39:206][982]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.32.39:211][982]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.32.39
+[2015.12.13-05.32.39:211][982]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.32.39:211][982]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.32.39:211][982]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.32.39:212][982]LogWorld: Bringing up level for play took: 0.005282
+[2015.12.13-05.32.39:215][982]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.32.39:216][982]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.702
+[2015.12.13-05.32.39:216][982]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.32.56:422][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.32.56:515][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.32.56:700][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA4A586A20
+[2015.12.13-05.32.58:839][497]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.32.58:839][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.32.58:840][497]PIE: New page: PIE session: Square (Dec 12, 2015, 7:32:58 PM)
+[2015.12.13-05.32.58:840][497]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.32.58:846][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006273s)
+[2015.12.13-05.32.58:848][497]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.32.58:848][497]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2015.12.13-05.32.58:848][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.008712s)
+[2015.12.13-05.32.58:926][497]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.32.58:944][497]LogInit: FAudioDevice initialized.
+[2015.12.13-05.32.58:983][497]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.32.58:986][497]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.32.58
+[2015.12.13-05.32.58:986][497]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.32.58:987][497]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.32.58:987][497]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.32.58:987][497]LogWorld: Bringing up level for play took: 0.003583
+[2015.12.13-05.32.58:990][497]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.32.58:990][497]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.477
+[2015.12.13-05.32.58:990][497]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.33.09:884][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.33.09:981][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.33.10:162][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA289CF920
+[2015.12.13-05.33.30:856][187]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.33.30:916][187]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.33.31:031][187]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.33.31:036][187]BlueprintEditorCompileResults: Info [2509.72] Compile of PhysicsBallBP successful! [in 180 ms]
+[2015.12.13-05.33.35:275][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.33.35:275][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.33.35:276][279]PIE: New page: PIE session: Square (Dec 12, 2015, 7:33:35 PM)
+[2015.12.13-05.33.35:276][279]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.33.35:283][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006915s)
+[2015.12.13-05.33.35:284][279]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.33.35:284][279]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2015.12.13-05.33.35:284][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.008454s)
+[2015.12.13-05.33.35:349][279]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.33.35:365][279]LogInit: FAudioDevice initialized.
+[2015.12.13-05.33.35:408][279]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.33.35:411][279]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.33.35
+[2015.12.13-05.33.35:411][279]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.33.35:411][279]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.33.35:411][279]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.33.35:412][279]LogWorld: Bringing up level for play took: 0.003233
+[2015.12.13-05.33.35:414][279]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.33.35:414][279]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.901
+[2015.12.13-05.33.35:415][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.34.18:034][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.34.18:108][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.34.18:170][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA7B65B740
+[2015.12.13-05.36.45:819][340]LogSavePackage: Save=118.704193ms
+[2015.12.13-05.36.45:819][340]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Square_Auto3FF021BF645FA4F5138B7EEA410ECB218.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Maps/Square_Auto3.umap'
+[2015.12.13-05.36.45:820][340]LogSavePackage: Total save time: 128.233217ms
+[2015.12.13-05.36.45:820][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Maps/Square_Auto3.umap
+[2015.12.13-05.36.45:823][340]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/Square' took 0.216
+[2015.12.13-05.36.45:823][340]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
+[2015.12.13-05.36.45:833][340]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollingBP/Blueprints/PhysicsBallBP] ([1] browsable assets)...
+[2015.12.13-05.36.45:865][340]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP]
+[2015.12.13-05.36.45:865][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/PhysicsBallBP]
+[2015.12.13-05.36.45:984][340]LogSavePackage: Save=110.225578ms
+[2015.12.13-05.36.45:984][340]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/PhysicsBallBP_Auto387EF192C44EFBF096F854EBDCF279F74.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto3.uasset'
+[2015.12.13-05.36.45:987][340]LogSavePackage: Total save time: 120.137893ms
+[2015.12.13-05.36.45:987][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Autosaves/Game/RollingBP/Blueprints/PhysicsBallBP_Auto3.uasset
+[2015.12.13-05.36.45:987][340]LogFileHelpers: Auto-saving content packages took 0.163
+[2015.12.13-05.40.57:473][129]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.00:839][236]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.00:889][237]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.00:915][238]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.00:956][239]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:018][240]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:079][241]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:260][244]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:297][245]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:342][246]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:372][247]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:435][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:564][248]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:589][249]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:615][250]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:645][251]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:698][252]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:764][253]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:826][254]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:887][255]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.01:949][256]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:010][257]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:075][258]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:137][259]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:197][260]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:262][261]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:325][262]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:389][263]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:449][264]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:511][265]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:573][266]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:637][267]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:702][268]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:765][269]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:825][270]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:890][271]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.02:951][272]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:011][273]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:075][274]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:139][275]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:201][276]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:266][277]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:325][278]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:386][279]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:447][280]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:507][281]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:570][282]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:633][283]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:696][284]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:759][285]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:821][286]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:886][287]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.03:945][288]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:008][289]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:070][290]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:133][291]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:194][292]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:256][293]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:320][294]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:383][295]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:445][296]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:509][297]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:572][298]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:636][299]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:696][300]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:756][301]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:819][302]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:881][303]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.04:942][304]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:006][305]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:067][306]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:127][307]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:190][308]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:253][309]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:314][310]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:373][311]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:437][312]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:497][313]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:563][314]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:620][315]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:682][316]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:745][317]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:808][318]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:870][319]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:935][320]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.05:997][321]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:062][322]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:119][323]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:179][324]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:243][325]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:305][326]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:364][327]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:433][328]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:489][329]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:548][330]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:612][331]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:672][332]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:736][333]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:802][334]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:864][335]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:920][336]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.06:981][337]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:043][338]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:108][339]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:168][340]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:232][341]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:294][342]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:356][343]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:414][344]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:481][345]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:542][346]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:604][347]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:666][348]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:729][349]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:791][350]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:853][351]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:915][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.07:976][353]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:100][354]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:127][355]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:162][356]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:223][357]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:285][358]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:345][359]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:411][360]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:537][361]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:568][362]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:603][363]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:665][364]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:728][365]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:790][366]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:852][367]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:913][368]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.08:974][369]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:036][370]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:097][371]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:156][372]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:218][373]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:283][374]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:343][375]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:408][376]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:470][377]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:529][378]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:589][379]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:650][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:711][381]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:773][382]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:837][383]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:901][384]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.09:960][385]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:024][386]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:090][387]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:153][388]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:211][389]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:273][390]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:335][391]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:395][392]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:456][393]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:518][394]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:580][395]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:643][396]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:708][397]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:773][398]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:832][399]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:894][400]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.10:956][401]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:020][402]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:082][403]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:145][404]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:208][405]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:269][406]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:329][407]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:391][408]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:454][409]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:514][410]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:573][411]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:640][412]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:701][413]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:764][414]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:824][415]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:882][416]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.11:948][417]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:011][418]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:073][419]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:132][420]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:196][421]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:258][422]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:322][423]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:385][424]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:516][425]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:547][426]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:580][427]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:645][428]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:707][429]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:766][430]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:831][431]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:891][432]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.12:953][433]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:076][435]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:136][436]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:162][437]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:223][438]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:284][439]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:346][440]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:409][441]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:533][442]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:561][443]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:595][444]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:749][445]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:872][446]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:899][447]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:927][448]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.13:969][449]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:032][450]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:108][451]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:233][452]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:329][453]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:356][454]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:379][455]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:427][456]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:491][457]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:554][458]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:617][459]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:681][460]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:741][461]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:805][462]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:865][463]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.14:931][464]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:066][465]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:107][466]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:132][467]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:186][468]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:251][469]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:307][470]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:369][471]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:426][472]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:486][473]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:547][474]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:607][475]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:668][476]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:726][477]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:790][478]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:849][479]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:906][480]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.15:965][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:024][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:083][483]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:145][484]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:203][485]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:263][486]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:324][487]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:382][488]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:444][489]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:504][490]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:570][491]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:632][492]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:790][493]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:818][494]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:843][495]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:895][496]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.16:955][497]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.17:018][498]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.17:082][499]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.17:146][500]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.17:207][501]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.21:794][572]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.21:799][572]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.21:803][572]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.42.21:861][572]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.21:999][572]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.22:006][572]BlueprintEditorCompileResults: Info [3040.69] Compile of PhysicsBallBP successful! [in 203 ms]
+[2015.12.13-05.42.22:073][572]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.25:209][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.25:209][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.42.25:209][636]PIE: New page: PIE session: Square (Dec 12, 2015, 7:42:25 PM)
+[2015.12.13-05.42.25:210][636]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.42.25:216][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006723s)
+[2015.12.13-05.42.25:217][636]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.42.25:218][636]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2015.12.13-05.42.25:218][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.008496s)
+[2015.12.13-05.42.25:297][636]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.42.25:321][636]LogInit: FAudioDevice initialized.
+[2015.12.13-05.42.25:360][636]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.42.25:363][636]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.42.25
+[2015.12.13-05.42.25:363][636]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.42.25:364][636]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.42.25:364][636]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.25:364][636]LogWorld: Bringing up level for play took: 0.003632
+[2015.12.13-05.42.25:366][636]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.25:367][636]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.853
+[2015.12.13-05.42.25:367][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.36:520][158]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.36:584][158]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.36:641][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA0D95A160
+[2015.12.13-05.42.37:845][191]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Skybox)
+[2015.12.13-05.42.38:890][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skybox)
+[2015.12.13-05.42.40:451][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.40:451][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.42.40:451][283]PIE: New page: PIE session: Square (Dec 12, 2015, 7:42:40 PM)
+[2015.12.13-05.42.40:451][283]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.42.40:456][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004296s)
+[2015.12.13-05.42.40:456][283]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.42.40:457][283]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2015.12.13-05.42.40:457][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.005590s)
+[2015.12.13-05.42.40:524][283]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.42.40:541][283]LogInit: FAudioDevice initialized.
+[2015.12.13-05.42.40:583][283]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.42.40:586][283]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.42.40
+[2015.12.13-05.42.40:586][283]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.42.40:587][283]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.42.40:587][283]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.40:587][283]LogWorld: Bringing up level for play took: 0.003398
+[2015.12.13-05.42.40:590][283]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.42.40:590][283]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.077
+[2015.12.13-05.42.40:590][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.55:725][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.55:789][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.42.55:885][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA6EA63B00
+[2015.12.13-05.42.56:922][ 10]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.02:734][140]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.02:740][140]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.02:770][140]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.09:241][245]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.43.09:298][245]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.09:423][245]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.09:429][245]BlueprintEditorCompileResults: Info [3088.11] Compile of PhysicsBallBP successful! [in 187 ms]
+[2015.12.13-05.43.09:480][245]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.12:446][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.43.12:446][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.43.12:446][304]PIE: New page: PIE session: Square (Dec 12, 2015, 7:43:12 PM)
+[2015.12.13-05.43.12:446][304]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.43.12:451][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004796s)
+[2015.12.13-05.43.12:454][304]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.43.12:454][304]LogPlayLevel: PIE: World Init took: (0.002865s)
+[2015.12.13-05.43.12:454][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.008104s)
+[2015.12.13-05.43.12:517][304]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.43.12:536][304]LogInit: FAudioDevice initialized.
+[2015.12.13-05.43.12:580][304]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.43.12:583][304]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.43.12
+[2015.12.13-05.43.12:583][304]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.43.12:583][304]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.43.12:583][304]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.12:584][304]LogWorld: Bringing up level for play took: 0.003290
+[2015.12.13-05.43.12:586][304]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.43.12:586][304]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.072
+[2015.12.13-05.43.12:586][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.43.30:052][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.43.30:120][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.43.30:177][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA6E853F60
+[2015.12.13-05.43.31:907][161]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.44.16:914][186]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.12.13-05.44.17:042][189]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.44.17:100][189]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.44.17:220][189]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.44.17:226][189]BlueprintEditorCompileResults: Info [3155.91] Compile of PhysicsBallBP successful! [in 184 ms]
+[2015.12.13-05.44.20:448][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.44.20:448][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.44.20:449][264]PIE: New page: PIE session: Square (Dec 12, 2015, 7:44:20 PM)
+[2015.12.13-05.44.20:449][264]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.44.20:454][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005171s)
+[2015.12.13-05.44.20:455][264]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.44.20:455][264]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2015.12.13-05.44.20:456][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.006545s)
+[2015.12.13-05.44.20:526][264]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.44.20:546][264]LogInit: FAudioDevice initialized.
+[2015.12.13-05.44.20:584][264]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.44.20:587][264]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.44.20
+[2015.12.13-05.44.20:587][264]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.44.20:588][264]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.44.20:588][264]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.44.20:588][264]LogWorld: Bringing up level for play took: 0.003482
+[2015.12.13-05.44.20:592][264]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.44.20:592][264]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.078
+[2015.12.13-05.44.20:592][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.44.27:790][600]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.44.27:877][600]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.44.27:935][600]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA13F10D60
+[2015.12.13-05.44.54:690][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rolling/Materials/BallFeetPhysics" FILE="../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset" SILENT=true
+[2015.12.13-05.44.54:705][252]LogSavePackage: Save=5.120171ms
+[2015.12.13-05.44.54:705][252]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/BallFeetPhysicsA2C89F894278F73399768BA3597B5B09.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset'
+[2015.12.13-05.44.54:709][252]LogSavePackage: Total save time: 17.520923ms
+[2015.12.13-05.44.54:709][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset
+[2015.12.13-05.45.23:443][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.45.23:443][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.45.23:444][390]PIE: New page: PIE session: Square (Dec 12, 2015, 7:45:23 PM)
+[2015.12.13-05.45.23:444][390]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.45.23:449][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005212s)
+[2015.12.13-05.45.23:451][390]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.45.23:451][390]LogPlayLevel: PIE: World Init took: (0.001891s)
+[2015.12.13-05.45.23:451][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.007565s)
+[2015.12.13-05.45.23:511][390]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.45.23:523][390]LogInit: FAudioDevice initialized.
+[2015.12.13-05.45.23:559][390]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.45.23:562][390]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.45.23
+[2015.12.13-05.45.23:562][390]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.45.23:562][390]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.45.23:562][390]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.45.23:563][390]LogWorld: Bringing up level for play took: 0.002963
+[2015.12.13-05.45.23:564][390]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.45.23:565][390]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 1.051
+[2015.12.13-05.45.23:565][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.45.30:853][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.45.30:929][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.45.31:001][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA20D34900
+[2015.12.13-05.45.54:016][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rolling/Materials/BallFeetPhysics" FILE="../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset" SILENT=true
+[2015.12.13-05.45.54:027][ 88]LogSavePackage: Save=1.820540ms
+[2015.12.13-05.45.54:027][ 88]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/BallFeetPhysics2D4E8B86427DC025FC6474B9CE21C079.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset'
+[2015.12.13-05.45.54:031][ 88]LogSavePackage: Total save time: 12.336805ms
+[2015.12.13-05.45.54:031][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset
+[2015.12.13-05.45.55:728][127]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.45.55:789][127]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.45.55:904][127]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.45.55:910][127]BlueprintEditorCompileResults: Info [3254.60] Compile of PhysicsBallBP successful! [in 182 ms]
+[2015.12.13-05.45.57:851][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.45.57:851][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.45.57:851][160]PIE: New page: PIE session: Square (Dec 12, 2015, 7:45:57 PM)
+[2015.12.13-05.45.57:851][160]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.45.57:856][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004896s)
+[2015.12.13-05.45.57:857][160]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.45.57:858][160]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2015.12.13-05.45.57:858][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.006635s)
+[2015.12.13-05.45.57:925][160]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.45.57:940][160]LogInit: FAudioDevice initialized.
+[2015.12.13-05.45.57:975][160]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.45.57:978][160]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.45.57
+[2015.12.13-05.45.57:978][160]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.45.57:978][160]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.45.57:978][160]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.45.57:978][160]LogWorld: Bringing up level for play took: 0.002805
+[2015.12.13-05.45.57:980][160]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.45.57:981][160]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square -0.533
+[2015.12.13-05.45.57:981][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.46.16:112][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.46.16:198][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.46.16:249][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA7109A700
+[2015.12.13-05.46.27:828][ 15]LogEditorTransaction: Undo Move Node
+[2015.12.13-05.46.27:850][ 15]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.46.32:594][148]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.46.32:651][148]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.46.32:765][148]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.46.32:770][148]BlueprintEditorCompileResults: Info [3291.46] Compile of PhysicsBallBP successful! [in 175 ms]
+[2015.12.13-05.46.37:330][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rolling/Materials/BallFeetPhysics" FILE="../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset" SILENT=true
+[2015.12.13-05.46.37:341][247]LogSavePackage: Save=1.660671ms
+[2015.12.13-05.46.37:341][247]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/BallFeetPhysicsC17866A4435906CFE843FAB749EA6A42.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset'
+[2015.12.13-05.46.37:345][247]LogSavePackage: Total save time: 13.471685ms
+[2015.12.13-05.46.37:345][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/Rolling/Materials/BallFeetPhysics.uasset
+[2015.12.13-05.46.38:551][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.46.38:551][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.46.38:552][274]PIE: New page: PIE session: Square (Dec 12, 2015, 7:46:38 PM)
+[2015.12.13-05.46.38:552][274]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.46.38:557][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004856s)
+[2015.12.13-05.46.38:558][274]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.46.38:558][274]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2015.12.13-05.46.38:558][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.006314s)
+[2015.12.13-05.46.38:625][274]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.46.38:641][274]LogInit: FAudioDevice initialized.
+[2015.12.13-05.46.38:678][274]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.46.38:682][274]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.46.38
+[2015.12.13-05.46.38:682][274]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.46.38:682][274]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.46.38:682][274]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.46.38:683][274]LogWorld: Bringing up level for play took: 0.003584
+[2015.12.13-05.46.38:685][274]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.46.38:685][274]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.172
+[2015.12.13-05.46.38:686][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.46.43:254][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.46.43:329][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.46.43:386][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA21C699E0
+[2015.12.13-05.47.13:047][856]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.13:054][856]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.13:145][858]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.47.13:205][858]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.13:308][858]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.13:313][858]BlueprintEditorCompileResults: Info [3332.00] Compile of PhysicsBallBP successful! [in 167 ms]
+[2015.12.13-05.47.15:592][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.15:592][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.47.15:592][897]PIE: New page: PIE session: Square (Dec 12, 2015, 7:47:15 PM)
+[2015.12.13-05.47.15:593][897]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.47.15:597][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004579s)
+[2015.12.13-05.47.15:598][897]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.47.15:599][897]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2015.12.13-05.47.15:599][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.006244s)
+[2015.12.13-05.47.15:660][897]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.47.15:673][897]LogInit: FAudioDevice initialized.
+[2015.12.13-05.47.15:719][897]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.47.15:722][897]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.47.15
+[2015.12.13-05.47.15:722][897]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.47.15:722][897]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.47.15:722][897]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.15:723][897]LogWorld: Bringing up level for play took: 0.003177
+[2015.12.13-05.47.15:724][897]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.15:725][897]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square -0.789
+[2015.12.13-05.47.15:725][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.32:153][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.32:245][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.32:300][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA124025C0
+[2015.12.13-05.47.37:126][477]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.37:131][477]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.37:221][479]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.47.37:280][479]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.37:400][479]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.37:405][479]BlueprintEditorCompileResults: Info [3356.09] Compile of PhysicsBallBP successful! [in 184 ms]
+[2015.12.13-05.47.39:310][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.39:310][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.47.39:310][513]PIE: New page: PIE session: Square (Dec 12, 2015, 7:47:39 PM)
+[2015.12.13-05.47.39:311][513]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.47.39:315][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004537s)
+[2015.12.13-05.47.39:316][513]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.47.39:317][513]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2015.12.13-05.47.39:317][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.006242s)
+[2015.12.13-05.47.39:383][513]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.47.39:397][513]LogInit: FAudioDevice initialized.
+[2015.12.13-05.47.39:434][513]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.47.39:436][513]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.47.39
+[2015.12.13-05.47.39:436][513]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.47.39:436][513]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.47.39:436][513]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.39:437][513]LogWorld: Bringing up level for play took: 0.002608
+[2015.12.13-05.47.39:438][513]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.47.39:439][513]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.925
+[2015.12.13-05.47.39:439][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.55:105][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.55:194][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.47.55:252][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA74EA1260
+[2015.12.13-05.48.01:753][ 90]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:246][195]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:282][196]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:285][196]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:333][197]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:337][197]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:341][197]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:345][197]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:351][197]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:356][197]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:360][197]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:449][199]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:957][218]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:961][218]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.08:992][219]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:042][220]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:046][220]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:050][220]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:100][221]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:104][221]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:160][222]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:276][224]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:388][227]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:522][231]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:526][231]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:780][240]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:784][240]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.09:866][242]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.10:504][266]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.10:508][266]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.10:891][280]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.10:894][280]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:050][285]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:054][285]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:158][288]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:162][288]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:370][295]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:454][297]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:459][297]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:463][297]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:467][297]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:965][316]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.11:998][317]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.12:132][320]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.13:114][358]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.13:119][358]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.13:152][358]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.14:392][380]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.13-05.48.14:457][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.14:582][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.14:587][380]BlueprintEditorCompileResults: Info [3393.27] Compile of PhysicsBallBP successful! [in 195 ms]
+[2015.12.13-05.48.14:630][380]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.16:493][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.48.16:493][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.13-05.48.16:493][405]PIE: New page: PIE session: Square (Dec 12, 2015, 7:48:16 PM)
+[2015.12.13-05.48.16:493][405]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Square
+[2015.12.13-05.48.16:498][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005010s)
+[2015.12.13-05.48.16:499][405]LogAIModule: Creating AISystem for world Square
+[2015.12.13-05.48.16:500][405]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2015.12.13-05.48.16:500][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Square.Square to /Game/RollingBP/Maps/UEDPIE_0_Square.Square (0.006786s)
+[2015.12.13-05.48.16:567][405]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.13-05.48.16:583][405]LogInit: FAudioDevice initialized.
+[2015.12.13-05.48.16:627][405]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.13-05.48.16:630][405]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Square.Square up for play (max tick rate 60) at 2015.12.13-00.48.16
+[2015.12.13-05.48.16:630][405]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.48.16:630][405]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_Square.Square:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.13-05.48.16:630][405]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.16:631][405]LogWorld: Bringing up level for play took: 0.003431
+[2015.12.13-05.48.16:633][405]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.16:633][405]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Square 0.12
+[2015.12.13-05.48.16:634][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.48.32:317][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.48.32:404][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Square.Square:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square' with GeneratedClass '/Game/RollingBP/Maps/Square.Square_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Square.Square:PersistentLevel.Square'
+[2015.12.13-05.48.32:465][914]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA8064A840
+[2015.12.13-05.48.32:534][914]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.12.13-05.48.48:475][202]LogSavePackage: Save=76.983742ms
+[2015.12.13-05.48.48:475][202]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/Square6C21FFD141998CA1623B9A92137D5285.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/RollingBP/Maps/Square.umap'
+[2015.12.13-05.48.48:479][202]LogSavePackage: Total save time: 88.562649ms
+[2015.12.13-05.48.48:479][202]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/RollingBP/Maps/Square.umap
+[2015.12.13-05.48.48:526][202]LogFileHelpers: Saving map 'Square' took 0.258
+[2015.12.13-05.48.48:557][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.13-05.48.48:688][202]LogSavePackage: Save=123.781731ms
+[2015.12.13-05.48.48:688][202]LogSavePackage: Moving '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Saved/PhysicsBallBPC596C4C744340EDE614D14971484094D.tmp' to '../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.13-05.48.48:692][202]LogSavePackage: Total save time: 133.852735ms
+[2015.12.13-05.48.48:692][202]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/foolmoron/Documents/Projects/SumoTwomo2/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.13-05.48.54:818][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA25A30540
+[2015.12.13-05.48.54:925][303]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.13-05.48.54:928][303]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.13-05.48.55:290][304]Cmd: QUIT_EDITOR
+[2015.12.13-05.48.55:831][304]LogExit: Preparing to exit.
+[2015.12.13-05.48.56:898][304]LogExit: Editor shut down
+[2015.12.13-05.48.56:900][304]LogExit: Transaction tracking system shut down
+[2015.12.13-05.48.56:904][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA28D3A5C0
+[2015.12.13-05.48.56:910][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA461B1760
+[2015.12.13-05.48.56:910][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA45F994E0
+[2015.12.13-05.48.56:910][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA4F0E7240
+[2015.12.13-05.48.56:910][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA45F99300
+[2015.12.13-05.48.57:188][304]LogExit: Object subsystem successfully closed.
+[2015.12.13-05.48.57:273][304]LogD3D11RHI: Shutdown
+[2015.12.13-05.48.57:273][304]LogD3D11RHI: CleanupD3DDevice
+[2015.12.13-05.48.57:419][304]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (199)
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.13-05.48.57:451][304]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.13-05.48.57:463][304]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.13-05.48.57:463][304]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.13-05.48.57:464][304]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.13-05.48.57:465][304]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.13-05.48.57:611][304]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.13-05.48.57:611][304]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.13-05.48.57:611][304]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.13-05.48.57:611][304]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.13-05.48.57:611][304]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.13-05.48.57:612][304]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.13-05.48.57:613][304]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.13-05.48.57:614][304]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.13-05.48.57:616][304]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.13-05.48.57:621][304]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.13-05.48.57:639][304]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.13-05.48.57:640][304]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.13-05.48.57:642][304]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.13-05.48.57:648][304]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.13-05.48.57:744][304]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.13-05.48.57:746][304]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.13-05.48.57:746][304]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.13-05.48.57:848][304]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.13-05.48.57:848][304]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.13-05.48.57:848][304]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.13-05.48.57:851][304]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.13-05.48.57:851][304]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.13-05.48.57:851][304]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.13-05.48.57:851][304]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.13-05.48.57:852][304]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.13-05.48.57:855][304]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.13-05.48.57:944][304]LogDerivedDataCache: Shutdown
+[2015.12.13-05.48.57:944][304]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.13-05.48.57:944][304]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.13-05.48.57:944][304]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.13-05.48.57:945][304]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.13-05.48.57:946][304]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.13-05.48.57:946][304]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.13-05.48.57:946][304]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.13-05.48.57:946][304]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.13-05.48.57:946][304]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.13-05.48.58:947][304]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.13-05.48.58:947][304]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.13-05.48.58:947][304]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.13-05.48.58:947][304]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.13-05.48.58:948][304]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.13-05.48.58:948][304]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.13-05.48.58:948][304]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.13-05.48.58:984][304]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.13-05.48.58:986][304]LogExit: Exiting.
+[2015.12.13-05.48.59:038][304]Log file closed, 12/13/15 00:48:59
